@@ -1,0 +1,184 @@
+body{
+	font-family: Helvetica;
+	margin:0;
+
+	background-color:#fff;
+	
+	/*background-image: url(./images/bgnoise_lg.png);
+	background-attachment: fixed;
+	background-position: center; 
+	background-repeat:no-repeat;*/
+	
+}
+header{
+	position:fixed;
+	width:100%;
+	/*background: #042747; */
+	background-image: url(./images/header_bar.jpg);
+	background-repeat: no-repeat;
+	background-size:100% 50px;
+	height:50px; 
+	
+	font-family: Helvetica;
+	color: white;
+	/*text-align:center;*/
+	z-index:10;
+}
+.hamburger{
+        background:none;
+        position:absolute;
+        top:0;
+        right:0;
+        line-height:40px;
+        padding:0px 15px 0px 15px;
+        color: gray;
+        border:0;
+        font-size:1.4em;
+        font-weight:bold;
+        cursor:pointer;
+        outline:none;
+        z-index:100;
+}
+.hamburger2{
+        background:none;
+        position:absolute;
+        top:0;
+        right:0;
+        line-height:40px;
+        padding:0px 15px 0px 15px;
+        color: gray;
+        border:0;
+        font-size:1.4em;
+        font-weight:bold;
+        cursor:pointer;
+        outline:none;
+        z-index:100;
+}
+
+.bod{	
+	position:relative;
+	width:100%;
+}
+.box{
+
+	display: inline-block;
+	width:100%;
+	position:relative;
+}
+.centerbox{
+	display:inline-block;
+	position:relative;
+	width:75%;
+	float: right;
+	right:12.5%;
+	padding-bottom: 43.75%;
+}
+.iconbox{
+	display: inline-block;
+	width:13.25%;	
+	position:relative;
+	background-color:#c653a0;
+}
+
+.iconbox:hover{
+	background-color:#fff;
+}
+.marg{
+    margin:0px 10px 0px 10px;
+    vertical-align:middle;
+}
+
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  right: 0;
+}
+
+ul li {
+  display: block;
+  position: relative;
+  float: left;
+  
+}
+
+/* This hides the dropdowns */
+
+li ul { display: none; }
+
+ul li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  white-space: nowrap;
+  color: #fff;
+  font-size: 1.25em;
+  
+}
+
+
+/* Display the dropdown */
+
+
+li:hover > ul {
+  display: block;
+  position: absolute;
+}
+
+li:hover li { float: none; }
+/*change to light blue color*/
+li:hover a { background: #000; }
+
+li:hover li a:hover { background: #c653a0; }
+
+.menu li ul li { border-top: 0; }
+
+/* Displays second level dropdowns to the right of the first level dropdown */
+
+
+ul ul ul {
+  right: 100%;
+  top: 0;
+}
+
+/* Simple clearfix */
+
+
+
+ul:before,
+ul:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+ul:after { clear: both; }
+
+
+
+.videoRepo{
+    height:1000px;
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+.vidTitle{
+	color: #a0a0a0;
+}
+.contentDIV{
+        display: inline-block;
+        padding-right: 2em;
+	padding-bottom: 2em;
+        font-size: .5em;
+	width:200px;
+}
+
+.rootDIV{
+    margin-left: 10px;
+}

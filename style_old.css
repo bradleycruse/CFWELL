@@ -1,0 +1,298 @@
+
+body{
+	font-family: Helvetica;
+	margin:0;
+
+	background-color:#fff;
+	
+	/*background-image: url(./images/bgnoise_lg.png);
+	background-attachment: fixed;
+	background-position: center; 
+	background-repeat:no-repeat;*/
+	
+}
+header{
+	position:fixed;
+	width:100%;
+	/*background: #042747; */
+	background-image: url(./images/header_bar.jpg);
+	background-repeat: no-repeat;
+	background-size:100% 50px;
+	height:50px; 
+	line-height:50px;
+	font-size: 30px;
+	font-family: Helvetica;
+	color: white;
+	/*text-align:center;*/
+	z-index:10;
+}
+.hamburger{
+  background:none;
+  position:absolute;
+  top:0;
+  right:0;
+  line-height:50px;
+  padding:0px 15px 0px 15px;
+  color: #fff;
+  border:0;
+  font-size:1.4em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:100;
+}
+.hamburger2{
+  background:none;
+  position:absolute;
+  top:0;
+  right:0;
+  line-height:50px;
+  padding:0px 15px 0px 15px;
+  color: gray;
+  border:0;
+  font-size:1.4em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:100;
+}
+.DLIcon{
+  background:none;
+  position:absolute;
+  top:0;
+  right:0;
+  padding:0px 15px 0px 15px;
+  z-index:100;
+}
+
+.menu{z-index:1000000; top:50px; position:fixed; font-weight:bold; font-size:0.8em; width:100%; background:#e0eaf3; right:0px; text-align:center;}
+.menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none; }
+.menu li {display: block;   padding:10px 0 10px 0; border-bottom:#042747 1px solid;}
+.menu li:hover{display: block; background:#fff; padding:10px 0 10px 0;}
+.menu ul li a { text-decoration:none;  margin: 0px; color: black;}
+.menu ul li a:hover {  color: black; text-decoration:none;}
+.menu a{text-decoration:none; color:black;}
+.menu a:hover{text-decoration:none; color:black;}
+
+
+
+.bod{	
+	position:relative;
+	width:100%;
+}
+.box{
+
+	display: inline-block;
+	width:100%;
+	position:relative;
+}
+.leftbox{
+	width:50%;
+	float:left;
+}
+.rightbox{
+	width:50%;
+	float:right;
+}
+.centerbox{
+	display:inline-block;
+	position:relative;
+	width:75%;
+	float: right;
+	right:12.5%;
+	padding-bottom: 43.75%;
+}
+.centerboxicon{
+	display:inline-block;
+	position:relative;
+	width:75%;
+	float: right;
+	right:12.5%;
+}
+.centerboxtext{
+	display:inline-block;
+	position:relative;
+	width:75%;
+	float: right;
+	right:12.5%;
+	
+}
+.centerboxvidselect{
+	font-size: 0;
+	position:relative;
+	width:75%;
+	float: right;
+	right:12.5%;
+}
+.ytBox{
+	
+    position: relative;
+	width: 75%;
+	float: right;
+	right:12.5%;
+}
+
+.vidselect{
+	display: inline-block;
+    width:100%;
+	
+	/*padding:0px 10px 10px 0px;*/
+}
+.iconbox{
+	display: inline-block;
+	width:6.61%;	
+	position:relative;
+	background-color:#c653a0;
+}
+
+.iconbox:hover{
+	background-color:#fff;
+}
+.s_iconbox{
+	display: inline-block;
+	width:5%;
+        min-width: 20px;
+	position:relative;       
+}
+.marg{
+	margin:0px 10px 0px 10px;
+    vertical-align:middle;
+}
+.inline{
+	display:inline-block;
+	
+}
+.imgicon{
+	position:absolute;
+	display: inline-block;
+	width: 100%;
+	
+	left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0) 
+}
+
+.vidTitle{
+	color: #a0a0a0;
+}
+.categoryDIV{
+	
+}
+
+.contentDIV{
+        display: inline-block;
+        padding-right: 2em;
+		padding-bottom: 2em;
+        font-size: .5em;
+		width:200px;
+}
+
+.rootDIV{
+    margin-left: 10px;
+}
+
+.tooltip{
+    position: relative;
+}
+
+   
+a.tooltip::before {
+    content: attr(data-tip);
+	padding-left:1em;
+    font-size: 12px;
+    position:absolute;
+    z-index: 8;
+    background:#000;
+	color:#e0e0e0;
+    line-height: 24px;
+	
+    overflow: auto;
+    opacity: 0;
+    transition:opacity 0.4s ease-out;
+	position:top;
+    }
+   
+a.tooltip:hover::before {
+    opacity: 1;
+    }
+    
+
+.CareTeamContainer{
+	width:100%;
+	display: block;
+	}
+.DLbox{
+	width:100%;
+	display: block;
+	position:relative;
+}
+
+
+.nav_bar{
+	font-size:0;
+	z-index:100;
+}
+.nav_Resources{
+	display:inline-block;
+	overflow:hidden;
+	height:25px;
+	padding-top:5px;
+	width:16.664%;
+	text-align:center;
+	background-color:#c653a0;
+	font-family: helvetica;
+	color: #fff;
+	font-size: 18px;
+	z-index:9;
+}
+.nav_Resources:hover{
+	color:#000;
+	background-color:#fff;
+}
+
+.Member_pics{
+	display:block;
+
+}
+.Member_text{
+	display:inline-block;
+	position:relative;
+	color:#fff;
+	width:75%;
+	left:12.5%;
+	
+}
+img {
+	width:150px;
+    display: block;
+    margin: 0 auto;
+	padding-top:1em;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
